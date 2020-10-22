@@ -20,4 +20,3 @@ def speak(text, lang):
     
     length = get_length(file)
 
-    os.remove(file)
