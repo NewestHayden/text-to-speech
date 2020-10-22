@@ -20,6 +20,3 @@ def speak(text, lang):
     play(file)
     
     length = get_length(file)
-    time.sleep(length)
-
-    os.remove(file)
