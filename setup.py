@@ -7,17 +7,17 @@ setuptools.setup(
     author="Thomas Dewitte",
     author_email="thomasdewittecontact@gmail.com",
 
-    name='text_to_speech',
+    name='text_to_speech_mod',
     version='1.3.0',
     license="MIT",
-    url='https://github.com/dewittethomas/text-to-speech',
+    url='https://github.com/NewestHayden/text-to-speech',
     python_requires='>= 3.5',
     
-    description='A simple text to speech engine',
+    description='A simple text to speech engine mod',
     long_description=README,
     long_description_content_type="text/markdown",
 
-    package_dir={"text_to_speech": "text_to_speech"},
+    package_dir={"text_to_speech_mod": "text_to_speech_mod"},
     install_requires=["playsound>=1.2.2", "gTTS>=2.0.4", "mutagen>=1.44.0"],
     
     packages=setuptools.find_packages(),
