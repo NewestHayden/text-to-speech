@@ -17,7 +17,7 @@ setuptools.setup(
     long_description=README,
     long_description_content_type="text/markdown",
 
-    package_dir={"text_to_speech_mod": "text_to_speech_mod"},
+    package_dir={"text_to_speech": "text_to_speech"},
     install_requires=["playsound>=1.2.2", "gTTS>=2.0.4", "mutagen>=1.44.0"],
     
     packages=setuptools.find_packages(),
