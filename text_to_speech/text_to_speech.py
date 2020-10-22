@@ -2,7 +2,6 @@ from gtts import gTTS
 from playsound import playsound
 from mutagen.mp3 import MP3
 import os
-import time
 
 file = "speech.mp3"
 
@@ -20,6 +19,5 @@ def speak(text, lang):
     play(file)
     
     length = get_length(file)
-    time.sleep(length)
 
     os.remove(file)
