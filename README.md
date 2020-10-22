@@ -8,7 +8,7 @@ A simple text to speech engine
 To install the package run this command:
 
 ```bash
-pip install text-to-speech
+This was custom edited for a use that I have
 ```
 
 ## Usage
